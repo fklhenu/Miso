@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+      <image class="userinfo-avatar" src="/images/logo_main.png" background-size="cover"></image>
+      <text class="userinfo-nickname">{{nickName}}</text>
+  </view>
+  <view class="usermotto" catchtap='onViewTap'>
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

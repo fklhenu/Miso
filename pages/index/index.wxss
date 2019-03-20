@@ -1,0 +1,42 @@
+/**index.wxss**/
+
+page{
+  background: #FF534D;
+  height: 100%;
+  font-family: MicroSoft Yahei;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  margin-top: 60rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.usermotto {
+  margin-top: 200px;
+  border: 1px solid #25C6FC;
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+.user-motto{
+    font-size:22rpx;
+    font-weight: bold;
+    line-height:80rpx;
+    color: #FFF;
+}

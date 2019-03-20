@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/view/view",
+    "pages/index/index",
+    "pages/view/view-item/view-item"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF534D",
+    "navigationBarTitleText": "蜜所"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#FF534D",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "文章",
+        "pagePath": "pages/view/view"
+      }
+    ]
+  }
+}
